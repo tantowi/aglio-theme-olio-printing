@@ -184,10 +184,7 @@ function init() {
     for (i = 0; i < buttons.length; i++) {
         buttons[i].onclick = toggleCollapseButton;
 
-        // Show by default? Then toggle now.
-        if (buttons[i].className.indexOf('show') !== -1) {
-            toggleCollapseButton({target: buttons[i].children[0]});
-        }
+        toggleCollapseButton({target: buttons[i].children[0]});
     }
 
     var responseCodes = document.querySelectorAll('.example-names');
