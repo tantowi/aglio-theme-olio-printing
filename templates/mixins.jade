@@ -134,11 +134,6 @@ mixin RequestResponseBody(request, collapse, showBlank)
             if request.schema
                 h5 Attributes
                 +AttributeTable(JSON.parse(request.schema))
-            if request.schema
-                h5 Schema
-                pre: code
-                    != self.highlight(request.schema, null, ['json', 'yaml', 'xml'])
-                div(style="height: 1px;")
             if !request.hasContent
                 .description.text-muted This response has no content.
                 div(style="height: 1px;")
