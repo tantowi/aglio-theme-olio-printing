@@ -1,7 +1,7 @@
 {
-  "name": "aglio-theme-olio-attributes",
+  "name": "aglio-theme-olio-printing",
   "version": "0.0.1",
-  "description": "Custom theme for the Aglio API Blueprint renderer",
+  "description": "a printable olio-based theme (with attributes instead of schema)",
   "main": "lib/main.js",
   "scripts": {
     "build": "coffeelint src/*.coffee && coffee -o lib -c src",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hajimeni/aglio-theme-olio-attributes"
+    "url": "https://github.com/BenGardiner/aglio-theme-olio-printing"
   },
   "keywords": [
     "api",
@@ -30,9 +30,9 @@
   "author": "hajimeni",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hajimeni/aglio-theme-olio-attributes/issues"
+    "url": "https://github.com/BenGardiner/aglio-theme-olio-printing/issues"
   },
-  "homepage": "https://github.com/hajimeni/aglio-theme-olio-attributes",
+  "homepage": "https://github.com/BenGardiner/aglio-theme-olio-printing",
   "dependencies": {
     "coffee-script": "^1.8.0",
     "highlight.js": "^8.4.0",
