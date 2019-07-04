@@ -28,3 +28,9 @@ Aglio[https://github.com/danielgtaylor/aglio]
 Copyright &copy; 2016 Daniel G. Taylor
 
 http://dgt.mit-license.org/
+
+# Acknowledgements
+
+This package is incremental changes on top of [@hajimeni aglio-theme-olio-attributes](https://github.com/hajimeni/aglio-theme-olio-attributes)
+
+This packages (as changes to @hajimeni aglio-theme-olio-attributes) was developed with support from the [National Motor Freight Traffic Association](http://www.nmfta.org) to produce standalone documentation for the [Open Telematics API](https://github.com/nmfta-repo/nmfta-opentelematics-api)
