@@ -27,7 +27,7 @@
     "parse",
     "markdown"
   ],
-  "author": "hajimeni",
+  "author": "Ben Gardiner <ben.l.gardiner@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BenGardiner/aglio-theme-olio-printing/issues"
