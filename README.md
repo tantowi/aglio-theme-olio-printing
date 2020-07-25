@@ -17,8 +17,8 @@ for printing. Changes:
 
 ```bash
 $ sudo npm install -g aglio
-$ sudo npm install -g aglio-theme-olio-attributes
-$ aglio -t olio-attributes -i blueprint.apib -o MyAPI.html
+$ sudo npm install -g aglio-theme-olio-printing
+$ aglio -t olio-printing -i blueprint.apib -o blueprint-printing.html
 ```
 
 # Original License
